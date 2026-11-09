@@ -437,3 +437,14 @@ footer.site-footer {
   .hero-photo { order: -1; }
   .hero-photo img { margin: 0; max-width: 220px; }
 }
+
+@media (min-width: 821px) {
+  .hero {
+    grid-template-columns: minmax(0, 34rem) auto;
+    justify-content: start;
+    gap: clamp(2rem, 5vw, 4rem);
+  }
+  .hero-photo img {
+    margin-left: 0;
+  }
+}

@@ -440,9 +440,9 @@ footer.site-footer {
 
 @media (min-width: 821px) {
   .hero {
-    grid-template-columns: minmax(0, 34rem) auto;
+    grid-template-columns: minmax(0, 36rem) auto;
     justify-content: start;
-    gap: clamp(2rem, 5vw, 4rem);
+    gap: clamp(2.5rem, 5vw, 4rem);
   }
   .hero-photo img {
     margin-left: 0;
